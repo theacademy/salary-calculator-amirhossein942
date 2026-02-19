@@ -60,13 +60,14 @@ public class EmployeeSalaryCalculator
 				{
 					//YOUR CODE STARTS HERE
 					 
-
+					grossSalary = HR * HW;
 					//YOUR CODE ENDS HERE
 				}
 				else
 				{
 					//YOUR CODE STARTS HERE
- 
+					int hourDiff = HW - standardWorkingHours;
+ 					grossSalary = standardWorkingHours * HR + (2 * HR) * hourDiff;
 
 					//YOUR CODE ENDS HERE
 				}
